@@ -173,12 +173,6 @@ bundle exec rspec spec/domain/entities/audit_spec.rb
 bundle exec rspec --format documentation
 ```
 
-## 🔗 Dependencias con otros Microservicios
-
-Este microservicio se comunica con:
-
-- **Auditoría Service** (`http://localhost:3003`): Para registrar eventos de creación y consulta de Audites
-
 ## 📊 Flujo de Datos
 
 1. **Request HTTP** → Controller (`AuditsController`)
