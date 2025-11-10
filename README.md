@@ -83,7 +83,7 @@ Puedes importar la colección de Postman desde este archivo:
 
 ## 📡 API Endpoints
 
-### Crear Audite
+### Crear Auditoria
 
 ```http
 POST /api/v1/audits
@@ -172,8 +172,8 @@ bundle exec rspec --format documentation
 1. **Request HTTP** → Controller (`AuditsController`)
 2. **Controller** → Use Case (`CreateAudit`, `FindAudit`, `ListAudits`)
 3. **Use Case** → Domain Entity (`Audit`) + Validator
-4. **Use Case** → Repository (`OracleAuditRepository`)
-5. **Repository** → Base de datos Oracle
+4. **Use Case** → Repository (`MongoAuditRepository`)
+5. **Repository** → Base de datos Mongo
 6. **Use Case** → HTTP Audit (`AuditService`)
 7. **Response** ← Controller
 
