@@ -39,15 +39,14 @@ app/
 
 - **Ruby**: 3.2.2
 - **Rails**: 7.1.0
-- **Base de datos**: Oracle (transaccional)
+- **Base de datos**: MongoDB
 - **Comunicación**: HTTP REST (HTTParty)
 - **Testing**: RSpec
 
 ## 📋 Prerequisitos
 
 - Ruby 3.2.2
-- Oracle Database (XE 21c o superior)
-- Oracle Instant Audit
+- MongoDB
 - Bundler
 - Docker
 
